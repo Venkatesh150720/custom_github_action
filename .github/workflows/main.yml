@@ -12,4 +12,4 @@ jobs:
       - name: Run Print Name Action
         uses: ./.github/actions/print-name
         with:
-          name: 'Your Name'
+          name: 'Venkatesh'
