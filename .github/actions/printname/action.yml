@@ -1,0 +1,10 @@
+name: 'Print Name Action'
+description: 'An action that prints the provided name'
+inputs:
+  name:
+    description: 'The name to print'
+    required: true
+    default: 'World'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
